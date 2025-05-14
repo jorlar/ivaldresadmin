@@ -23,28 +23,28 @@ const LandingPage: React.FC = () => {
   const features = [
     {
       icon: <HikingIcon sx={{ fontSize: 40 }} />,
-      title: 'Activities',
-      description: 'Discover exciting outdoor activities and adventures in Valdres.',
+      title: 'Aktiviteter',
+      description: 'Oppdag utfordrende utendørs aktiviteter i Valdres.',
     },
     {
       icon: <RestaurantIcon sx={{ fontSize: 40 }} />,
-      title: 'Restaurants',
-      description: 'Find the best local restaurants and dining experiences.',
+      title: 'Restauranter og cafeer',
+      description: 'Finn de beste lokale restauranter og gode opplevelsene.',
     },
     {
       icon: <HotelIcon sx={{ fontSize: 40 }} />,
-      title: 'Hotels',
-      description: 'Book comfortable accommodations for your stay in Valdres.',
+      title: 'Hoteller',
+      description: 'Book ditt hotellopphold for din neste tur til Valdres.',
     },
     {
       icon: <EventIcon sx={{ fontSize: 40 }} />,
-      title: 'Events',
-      description: 'Stay updated with local events and cultural happenings.',
+      title: 'Eventer og arrangementer',
+      description: 'Hold deg oppdatert med lokale begivenheter og kulturelle aktiviteter.',
     },
     {
       icon: <ShoppingBagIcon sx={{ fontSize: 40 }} />,
-      title: 'Shopping',
-      description: 'Explore local shops and find unique souvenirs.',
+      title: 'Butikker og bedrifter',
+      description: 'Utforsk lokale butikker og finn unike gaver.',
     },
   ];
 
@@ -84,11 +84,11 @@ const LandingPage: React.FC = () => {
             gutterBottom
             sx={{ fontWeight: 'bold' }}
           >
-            Welcome to Valdres
+            Velkommen til Valdres
           </Typography>
           <Typography variant="h5" color="inherit" paragraph>
-            Discover the beauty of Valdres through our comprehensive guide to activities,
-            accommodations, dining, and more.
+            Oppdag ville vakre Valdres gjennom vår app. 
+            Her vil du finne all informasjon du trenger for å planlegge ditt besøk i Valdres. Oversikt over aktiviteter, restauranter, hoteller, arrangementer og butikker, mm.
           </Typography>
           <Button
             variant="contained"
@@ -106,43 +106,39 @@ const LandingPage: React.FC = () => {
         <Grid container spacing={6} alignItems="center">
           <Grid item xs={12} md={6}>
             <Typography variant="h3" gutterBottom sx={{ fontWeight: 'bold' }}>
-              The Valdres App
+              Valdres App
             </Typography>
             <Typography variant="h6" color="text.secondary" paragraph>
-              Your complete guide to exploring Valdres
+              Din komplette guide til å utforske Valdres
             </Typography>
             <Typography paragraph>
-              The Valdres App is your ultimate companion for discovering everything this beautiful region has to offer. 
-              Whether you're planning your next adventure or looking for local experiences, our app has you covered.
+              Valdres App er din ultimate guide til å oppdage alt som Valdres har å by på. 
+              Uansett om du skal planlegge neste utfordrende tur eller lete etter lokale erfaringer, dekker vår app alt du trenger.
             </Typography>
             <Box sx={{ mt: 4 }}>
               <Grid container spacing={2}>
                 <Grid item xs={12} sm={6}>
                   <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
                     <HikingIcon sx={{ color: 'primary.main', mr: 1 }} />
-                    <Typography>Easy-to-use interface</Typography>
+                    <Typography>Turforslag</Typography>
                   </Box>
                   <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
                     <RestaurantIcon sx={{ color: 'primary.main', mr: 1 }} />
-                    <Typography>Real-time updates</Typography>
+                    <Typography>Restauranter og cafeer</Typography>
                   </Box>
                   <Box sx={{ display: 'flex', alignItems: 'center' }}>
                     <HotelIcon sx={{ color: 'primary.main', mr: 1 }} />
-                    <Typography>Offline access</Typography>
+                    <Typography>Hotell og overnatting</Typography>
                   </Box>
                 </Grid>
                 <Grid item xs={12} sm={6}>
                   <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
                     <EventIcon sx={{ color: 'primary.main', mr: 1 }} />
-                    <Typography>Detailed information</Typography>
+                    <Typography>Eventer og arrangementer</Typography>
                   </Box>
                   <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
                     <ShoppingBagIcon sx={{ color: 'primary.main', mr: 1 }} />
-                    <Typography>Local recommendations</Typography>
-                  </Box>
-                  <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                    <HikingIcon sx={{ color: 'primary.main', mr: 1 }} />
-                    <Typography>Interactive maps</Typography>
+                    <Typography>Butikker og bedrifter</Typography>
                   </Box>
                 </Grid>
               </Grid>
@@ -197,7 +193,7 @@ const LandingPage: React.FC = () => {
           gutterBottom
           sx={{ mb: 6 }}
         >
-          Explore Valdres
+          Utforsk Valdres
         </Typography>
         <Grid container spacing={4}>
           {features.map((feature, index) => (
@@ -232,17 +228,17 @@ const LandingPage: React.FC = () => {
           <Grid container spacing={4} alignItems="center">
             <Grid item xs={12} md={6}>
               <Typography variant="h4" gutterBottom>
-                About Valdres
+                Om Valdres
               </Typography>
               <Typography paragraph>
-                Valdres is a traditional district in central, southern Norway, consisting of the
-                municipalities Nord-Aurdal, Sør-Aurdal, Øystre Slidre, Vestre Slidre, Vang, and
-                Etnedal. The region is known for its stunning natural beauty, rich cultural heritage,
-                and outdoor activities.
+                Valdres er en tradisjonell distrikt i det sentrale, sør-Norge, bestående av
+                kommunene Nord-Aurdal, Sør-Aurdal, Øystre Slidre, Vestre Slidre, Vang, og
+                Etnedal. Regionen er kjent for sin naturlige skjønnhet, rike kulturarv,
+                og utendørs aktiviteter.
               </Typography>
               <Typography paragraph>
-                Our app helps visitors and locals alike discover the best that Valdres has to offer,
-                from hiking trails and ski slopes to local restaurants and cultural events.
+                Vår app hjelper besøkende og lokale å oppdage det beste som Valdres har å by på,
+                fra hiking og ski til lokale restauranter og kulturelle begivenheter.
               </Typography>
             </Grid>
             <Grid item xs={12} md={6}>
