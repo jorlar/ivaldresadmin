@@ -231,7 +231,7 @@ const LandingPage: React.FC = () => {
                 Om Valdres
               </Typography>
               <Typography paragraph>
-                Valdres er en tradisjonell distrikt i det sentrale, sør-Norge, bestående av
+                Valdres er et tradisjonelt distrikt i det sentrale, sør-Norge, bestående av
                 kommunene Nord-Aurdal, Sør-Aurdal, Øystre Slidre, Vestre Slidre, Vang, og
                 Etnedal. Regionen er kjent for sin naturlige skjønnhet, rike kulturarv,
                 og utendørs aktiviteter.
