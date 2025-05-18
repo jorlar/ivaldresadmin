@@ -88,15 +88,26 @@ const LandingPage: React.FC = () => {
           </Typography>
           <Typography variant="h5" color="inherit" paragraph>
             Oppdag ville vakre Valdres gjennom vår app. 
-            Her vil du finne all informasjon du trenger for å planlegge ditt besøk i Valdres. Oversikt over aktiviteter, restauranter, hoteller, arrangementer og butikker, mm.
+            Her vil du finne all informasjon du trenger for å planlegge ditt besøk i Valdres. Oversikt over aktiviteter, restauranter, hoteller, arrangementer og butikker, mm. <br /> <br></br> Vil du ha din butikk eller arrangement i appen?
           </Typography>
           <Button
             variant="contained"
             size="large"
-            onClick={() => navigate('/login')}
-            sx={{ mt: 2 }}
+            component="a"
+            href="mailto:hei@tvela.no"
+            sx={{
+              mt: 4,
+              px: 4,
+              py: 1.5,
+              fontSize: '1.1rem',
+              backgroundColor: 'primary.main',
+              color: 'white',
+              '&:hover': {
+                backgroundColor: 'primary.dark',
+              },
+            }}
           >
-            Admin Login
+            Meld interesse
           </Button>
         </Container>
       </Paper>
