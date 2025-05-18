@@ -60,7 +60,7 @@ const LandingPage: React.FC = () => {
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
-          backgroundImage: 'url(https://plus.unsplash.com/premium_photo-1673697239981-389164b7b87f?q=80&w=2044&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+          backgroundImage: 'url(https://images.unsplash.com/photo-1747586007329-a8353cea70e3?q=80&w=2578&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
           height: '60vh',
           display: 'flex',
           alignItems: 'center',
@@ -84,10 +84,10 @@ const LandingPage: React.FC = () => {
             gutterBottom
             sx={{ fontWeight: 'bold' }}
           >
-            Velkommen til Valdres
+            Velkommen til ValdresAppen
           </Typography>
           <Typography variant="h5" color="inherit" paragraph>
-            Oppdag ville vakre Valdres gjennom vår app. 
+            Oppdag ville vakre Valdres gjennom vår app. <br /> <br></br>
             Her vil du finne all informasjon du trenger for å planlegge ditt besøk i Valdres. Oversikt over aktiviteter, restauranter, hoteller, arrangementer og butikker, mm. <br /> <br></br> Vil du ha din butikk eller arrangement i appen?
           </Typography>
           <Button
@@ -185,7 +185,7 @@ const LandingPage: React.FC = () => {
                 <CardMedia
                   component="img"
                   height="400"
-                  image="https://plus.unsplash.com/premium_photo-1673697239981-389164b7b87f?q=80&w=2044&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  image="https://images.unsplash.com/photo-1747586114913-51efbaa9ad63?q=80&w=2652&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="App screenshot 2"
                 />
               </Card>
@@ -257,7 +257,7 @@ const LandingPage: React.FC = () => {
                 <CardMedia
                   component="img"
                   height="400"
-                  image="https://plus.unsplash.com/premium_photo-1673697239981-389164b7b87f?q=80&w=2044&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  image="https://images.unsplash.com/photo-1747586007329-a8353cea70e3?q=80&w=2578&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Valdres landscape"
                 />
               </Card>
