@@ -87,7 +87,8 @@ const LandingPage: React.FC = () => {
             Velkommen til Fagernes Appen
           </Typography>
           <Typography variant='h5' color='inherit' paragraph>
-            Oppdag ville vakre Fagernes gjennom vår app. <br /> <br></br>
+            Oppdag hva vakre Fagernes har å by på gjennom vår app. <br />{" "}
+            <br></br>
             Her vil du finne all informasjon du trenger for å planlegge ditt
             besøk i Fagernes og området rundt. Oversikt over aktiviteter,
             restauranter, hoteller, arrangementer og butikker, mm. <br />{" "}
