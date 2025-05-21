@@ -6,6 +6,7 @@ import AdminLogin from './components/AdminLogin';
 import Dashboard from './components/Dashboard';
 import ProtectedRoute from './components/ProtectedRoute';
 import LandingPage from './components/LandingPage';
+import { Analytics } from "@vercel/analytics/react"
 
 const theme = createTheme({
   palette: {
@@ -38,7 +39,9 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Router>
+      <Analytics />
     </ThemeProvider>
+    
   );
 }
 
